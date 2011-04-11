@@ -167,8 +167,8 @@ code {
 /* Image align */
 img.centered, img.aligncenter {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 img.alignright {
@@ -183,7 +183,6 @@ img.alignleft {
   display: inline;
 }
 
-.aligncenter { display: block; margin: 0 auto; }
 .alignleft { float: left; }
 .alignright { float: right; }
 
