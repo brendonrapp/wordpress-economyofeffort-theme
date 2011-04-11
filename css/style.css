@@ -5,7 +5,7 @@ body {
 
 a { color: #414E5B; }
 
-p {
+p, pre, code, blockquote {
   margin: 1em;
 }
 
