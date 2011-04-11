@@ -4,6 +4,9 @@
    * Consider this scaffolding
    * Replace later
    */
+
+global $user_identity;
+
 ?>
 
 <div id="respond">
