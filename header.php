@@ -27,7 +27,8 @@
         <div id="site-title" class="content-bubble">
           <h1 id="title"><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
           <div id="menu-bar">
-            <?php wp_list_pages(array('title_li' => null)); ?>
+            <?php /* wp_list_pages(array('title_li' => null)); */ ?>
+            <li class="page_item"><a href="http://tumblr.economyofeffort.com/">Tumblr</a></li>
             <li class="page_item"><a href="http://www.twitter.com/legion">Twitter</a></li>
             <li class="page_item"><a href="http://www.github.com/LegionSB">Github</a></li>
             <li class="page_item"><a href="http://www.linkedin.com/in/legion">LinkedIn</a></li>
