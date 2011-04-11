@@ -173,13 +173,13 @@ img.centered, div.aligncenter {
 
 img.alignright {
   padding: 4px;
-  margin: 0 0 2px 7px;
+  margin: 0 0 2px 7px !important;
   display: inline;
 }
 
 img.alignleft {
   padding: 4px;
-  margin: 0 7px 2px 0;
+  margin: 0 7px 2px 0 !important;
   display: inline;
 }
 
