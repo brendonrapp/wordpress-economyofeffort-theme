@@ -1,6 +1,6 @@
 body {
   /* font-family: "Liberation Serif", "DejaVu Serif", Georgia, Garamond; */
-  font-family: Helvetica, Arial, "Liberation Sans", sans-serif;
+  font-family: Helvetica, "DejaVu Sans", Arial, "Liberation Sans", sans-serif;
 }
 
 a { color: #414E5B; }
@@ -72,6 +72,18 @@ input#search-bar {
 #header #title-bar #title {}
 #header #title-bar #description { display: none; }
 #header #header-widgets-box {}
+
+/* Code / Preformatted */
+pre, code {
+  background-color: black;
+  color: white;
+  margin-left: 1em;
+  padding: 1em;
+}
+
+code {
+  display: block;
+}
 
 /* Content */
 #content-wrapper {
