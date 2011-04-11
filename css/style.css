@@ -18,6 +18,15 @@ h2 { font-size: 22px; }
 h3 { font-size: 18px; }
 h4 { font-size: 16px; }
 
+ol {
+  margin-left: 25px;
+  list-style-position: outside;
+}
+
+ol li, ul li {
+  list-style-position: outside;
+}
+
 #wrapper {
   background-color: rgb(144, 148, 163);
   width: 100%;
