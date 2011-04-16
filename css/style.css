@@ -5,9 +5,16 @@ body {
 
 a { color: #414E5B; }
 
-p, pre, code, blockquote {
+p, pre, code {
   margin: 1em 0;
 }
+
+blockquote {
+  margin: 1em;
+  background-color: #EAEAEA;
+  font-size: 14px;
+}
+blockquote p { font-style: italic; }
 
 h1, h2, h3, h4 {
   font-weight: lighter;
