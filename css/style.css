@@ -11,6 +11,7 @@ p, pre, code {
 
 blockquote {
   margin: 1em;
+  padding: 1em;
   background-color: #EAEAEA;
   font-size: 14px;
 }
