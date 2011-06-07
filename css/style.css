@@ -173,7 +173,7 @@ code {
 }
 
 /* Image align */
-img.centered, img.aligncenter {
+img.centered, img.aligncenter, div.aligncenter {
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
