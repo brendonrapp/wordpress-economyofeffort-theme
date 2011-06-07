@@ -274,3 +274,8 @@ img.alignleft {
   color: #000;
   margin: 0px 0px 8px;
 }
+
+/* Added padding for SyntaxHighlighter Evolved */
+.syntaxhighlighter {
+  padding: 8px 0px;
+}
